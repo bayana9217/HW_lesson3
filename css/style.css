@@ -1,0 +1,93 @@
+/* Обнуляющий стиль */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+ol li,
+ul li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+/* -------------- */
+
+
+
+
+a{
+   color: rgb(17, 238, 113);
+}
+span{
+   color: rgb(228, 17, 175);
+}
+
+.header {
+}
+.logo {
+}
+.menu {
+}
+.menu__list {
+}
+.menu__link {
+   color: rgb(10, 24, 219);
+}
+
+.main {
+}
+.block{
+   color: rgb(194, 221, 40);
+}
+.block h1 {
+   color: red;
+}
+.block__info >p {
+   color: tomato;
+}
+
+.text{
+   color: darkgreen;
+}
+p.text {
+   color: brown;
+}
+span.text{
+   color: rgb(231, 41, 231);
+}
+
+.block__info2 {
+}
+.block__two {
+   color: slateblue;
+}
+.block__twoinfo  {
+   
+}
+.information {
+}
+.information__link {
+   color: rgb(231, 50, 192);
+}
+.footer p{
+   color: cyan;
+}
