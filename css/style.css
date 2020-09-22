@@ -1,3 +1,4 @@
+
 /* Обнуляющий стиль */
 *,
 *::before,
@@ -31,57 +32,51 @@ img {
 }
 /* -------------- */
 
-
-
-
-
-.header {
+/* Селектор id */
+#id-block {
 }
-.logo {
-}
-.menu {
-}
-.menu__list {
-}
-.menu__link {
-   color: rgb(10, 24, 219);
+/* Селектор тега */
+div {
 }
 
-.main {
-}
-.block{
-   color: rgb(194, 221, 40);
-}
-.block h1 {
-   color: red;
-}
-.block__info >p {
-   color: tomato;
+/* Смешанный селектор*/
+div.block {
 }
 
-.text{
-   color: darkgreen;
-}
-p.text {
-   color: brown;
-}
-span.text{
-   color: rgb(231, 41, 231);
+/* Селектор класса */
+.block {
 }
 
-.block__info2 {
+/* Все объекты с классами 
+content И text одновременно */
+.content.text {
 }
-.block__two {
-   color: slateblue;
+
+.content,
+.text {
 }
-.block__twoinfo a{
-   color: greenyellow;
+
+/* Все объекты с классам text, внутри
+ всех объектов с классом content
+ */
+.content .text {
 }
-.information {
+
+/* Все теги А с классом text */
+a.text {
 }
-a.information__link {
-   color: rgb(231, 50, 192);
+
+/* Все теги А внутри всех 
+объектов с классом text */
+.text a {
 }
-.footer p{
-   color: cyan;
+
+/* теги А первого уровня внутри всех 
+объектов с классом text */
+.text > a {
+}
+
+/* обращение ко всем обїектам с классом .block после 
+объектов с классом text */
+.text + .block {
 }
